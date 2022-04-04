@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
         rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
-</head>
+        <link rel="stylesheet" media="(min-width: 930px)" href="./css/tablet.css" />
 <body>
     <header>
         <img src="./assets/img/logo.svg" alt="">
@@ -82,77 +82,97 @@
                    </div>
                </section>
            </section>
+           
            <section class="main-product-detail">
             <span class="product-detail--batata-logo"></span>
             <div class="product-detail--title">
                 <h2>Creamos un producto sin comparación</h2>
                 <p>Confiable y diseñado para su uso diario</p>
             </div>
-            <section class="product-cards-container">
+
+
+            <section class="product-cards--container">
                 <article class="product-detail--card">
-                    <span class="clock"></span>
-                    <p class="product--card-title">Tiempo real</p>
-                    <p class="product--card-body">Nuestra API toma información minuto a minuto sobre las tasas que más determinan el comportamiento</p>
+                    <span class="icon--card clock"></span>
+                    <h3 class="product--card-title">Tiempo real</h3>
+                    <p class="product--card-body">
+                        Nuestra API toma información minuto a minutro sobre las tareas que
+                        determinan el comportamiento.
+                    </p>
                 </article>
                 <article class="product-detail--card">
-                    <span class="eye"></span>
-                    <p class="product--card-title">No hay tasas ocultas</p>
-                    <p class="product--card-body">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                    <span class="icon--card eye"></span>
+                    <h3 class="product--card-title">No hay tasas escondidas</h3>
+                    <p class="product--card-body">
+                        Ni en la compra o al momento de exit. Barabit siempre te muestra el
+                        costo real de lo estás alquilando.
+                    </p>
                 </article>
                 <article class="product-detail--card">
-                    <span class="dollar"></span>
-                    <p class="product--card-title">Compara monedas</p>
-                    <p class="product--card-body">No más rumores, con Batabit sabrás el valor real de cada moneda en el mercado actual.</p>
+                    <span class="icon--card dollar"></span>
+                    <h3 class="product--card-title">Compara monedas</h3>
+                    <p class="product--card-body">
+                        No más rumores, con Batabit sabrás el valor real de cada moneda en el
+                        mercado actual.
+                    </p>
                 </article>
                 <article class="product-detail--card">
-                    <span class="check"></span>
-                    <p class="product--card-title">Información Confiable</p>
-                    <p class="product--card-body">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.
+                    <span class="icon--card check"></span>
+                    <h3 class="product--card-title">Información confiable</h3>
+                    <p class="product--card-body">
+                        Nuestras fuentes están 100% verificadas y continuamos auditando su
+                        contenido mientras se actualizan.
                     </p>
                 </article>
             </section>
-           </section>
+                    
+               
+               
+                
+            </section>
+           
            <section class="bitcoin-img-container">
                <h2>Conócelo hoy</h2>
            </section>
+
            <section id="plans" class="main-plans-container">
-            <div class="plans-title">
+            <div class="plans--title">
                 <h2>Escoge el plan que mejor se ajuste a ti</h2>
                 <p>Cualquier plan te da acceso completo a nuestra plataforma</p>
             </div>
             <section class="plans-container--slider">
-                <article class='carousel__item'>
-                    <div class="plans-container--card">
-                        <div class="plan-info-container">
-                            <h3 class="plan-card--title">Pago Mensual</h3>
-                            <p class="plan-card--price"><sup>$</sup>19</p>
-                            <p class="plan-card--saving">*Ahorras $1 comparado al plan mensual.</p>
-                            <button class="plan-card--ca">Escoger este <span></span></button>
-                        </div>
+
+                <article class="plans-container--card">
+                    <p class="recommended">Basic</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Mensual</h3>
+                        <p class="plan-card--price"><span>€</span>19,99</p>
+                        <p class="plan-card--saving">*Disfruta de todas las funcionalidades sin ningún compromiso de permanencia</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
                     </div>
                 </article>
-                <article class='carousel__item'>
-                    <div class="plans-container--card">
-                        <div class="plan-info-container">
-                            <h3 class="plan-card--title">Pago Trimestral</h3>
-                            <p class="plan-card--price"><sup>$</sup>39</p>
-                            <p class="plan-card--saving">*Ahorras $72 comparado al plan mensual.</p>
-                            <button class="plan-card--ca">Escoger este <span></span></button>
-                        </div>
+
+                <article class="plans-container--card">
+                    <p class="recommended-sem">Expert</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Semestral</h3>
+                        <p class="plan-card--price"><span>€</span>79,99</p>
+                        <p class="plan-card--saving">*Ahorras 69,95 € comparado al plan mensual</p>
+                        <button class="plan-card--ca">Escoger este <span></span></button>
                     </div>
                 </article>
-                <article class='carousel__item'>
-                    <div class="plans-container--card">
-                        <p class="recommended">Recomendado</p>
-                        <div class="plan-info-container">
-                            <h3 class="plan-card--title">Pago Anual</h3>
-                            <p class="plan-card--price"><sup>$</sup>99</p>
-                            <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
-                            <button class="plan-card--ca">Escoger este <span></span></button>
-                        </div>
+
+                <article class="plans-container-card--anual">
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title--anual">Pago Anual</h3>
+                        <p class="plan-card-price--anual"><span>€</span>99,99</p>
+                        <p class="plan-card-saving--anual">*Ahorras 139 € comparado al plan mensual</p>
+                        <button class="plan-card-ca--anual">Escoger este <span></span></button>
                     </div>
                 </article>
             </section>
+            
            </section>
         </main>
         <footer>
