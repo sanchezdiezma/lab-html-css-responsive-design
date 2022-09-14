@@ -1,9 +1,13 @@
-/*
-1 - Posicionamiento
-2 - Modelo de Caja (Box Model)
+/* Fuentes
+font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+
+1 - Posicionamiento ( position )
+2 - Modelo de caja ( margin, pading )
 3 - Tipografía
 4 - Visuales
 5 - Otros
+
 */
 
 :root {
@@ -31,9 +35,10 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; /* 1rem = 10px */
     font-family: 'DM Sans', sans-serif;
 }
+   
 
 header {
     position: relative;
